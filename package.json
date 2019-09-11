@@ -1,0 +1,22 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "This is a practice repository for learning purposes",
+  "main": "scriptBG.js",
+  "scripts": {
+    "build": "browserify scriptBG.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dyerwolf1/background-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dyerwolf1/background-generator/issues"
+  },
+  "homepage": "https://github.com/Dyerwolf1/background-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

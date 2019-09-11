@@ -1,2 +1,2 @@
 # background-generator
-This is a practice repository for learning purposes
+this is  color gradient background generator

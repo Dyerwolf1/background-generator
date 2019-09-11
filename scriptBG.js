@@ -1,5 +1,10 @@
 // YOU CALL THIS FIRST VARIABLE CSS SO THAT YOU KNOW THAT IS WHERE THE CSS INFORMATION GOES 
 // AND THE H3 IS THE SPACE WHERE IT WLL GO INTO
+var _ = require('lodash');
+
+
+var array = [1,2,3,4,5,6,7,8];
+console.log ('answer:', _.without(array, 3));
 
 var css= document.querySelector("h3");
 var color1 = document.querySelector(".color1");
